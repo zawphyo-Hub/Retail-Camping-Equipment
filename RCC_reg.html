@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Retail Camping Equiments Website</title>
+	<link rel="stylesheet" type="text/css" href="RCC_style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="color">
+	<nav class="navi">
+			<input type="checkbox" id="check">			
+			<h3 class="logo">RCC&#10003;</h3>
+
+			<div class="nav-link">
+				<ul >
+			        <li><a href="RCC_home.html">Home</a></li>
+					<li><a href="equiments.html">Camping Equipments & Furnitures</a></li>
+			        <!-- <li><a href="furniture.html">Furnitures</a></li> -->
+                    <li><a href="offer-package.html">Offers and Packages</a></li>
+                    <li><a href="review.html">Reviews</a></li>
+                   
+           
+		        </ul>
+			</div>
+
+			<div class="icon">
+			    <ul >
+			    	<li>
+   		 				<!-- <div class="search-box">
+ 			    		   <input class="search-text" type="text" name="txtname" placeholder="Search Items" > 
+	               	       <a href="#" class="icon"><i class="fa-solid fa-magnifying-glass fa-sm"></i></a> 
+			    		</div>			    		 -->
+						<div class="userSearch">
+							<span class="userSearchIcon">
+								<i class="fa-solid fa-magnifying-glass searchBTN"></i>
+							
+							</span>
+							</div>
+								<form class="search-form" action="searchsocialApp.php" method="post">
+									<div class="userSearchBox">
+										
+										<input class="input1" type="text" name="keyword" placeholder="Enter to search camping equipments">
+										<i class="fa-solid fa-xmark closeBTN"></i>
+										
+									</div>
+								</form>
+	               	</li>
+				   <li>
+				    	<div class="cartIcon">
+				    	<a href="basket.html" class="icon"><i class="fa-solid fa-cart-shopping fa-lg"></i></a>
+				    	<span>0</span>
+				    	</div>
+
+				    </li>
+	               <li><a href="RCC_reg.html" class="icon"><i class="fa-regular fa-user fa-lg"></i></a></li>
+			    </ul>
+            </div>
+            
+			<label for="check" class="checkbtn">
+				<i class="fa-solid fa-bars"></i>
+			</label>
+	</nav>
+
+    
+	<div class="account">
+
+		<div class="row-account">
+			<div class="acc-column">
+				<img src="images/user1.png" alt="user image">
+
+			</div>
+			<div class="acc-column">
+				<form id="registerform">
+					
+					<input type="text" name="txtname" placeholder="Username" required>
+					<input type="email" name="txtemail" placeholder="Email" required>
+					<input type="text" name="txtphno" placeholder="Phone Number" required>
+					<input type="password" name="txtname" placeholder="Password" required>
+					<br><br>		
+					<button type="submit" name="txtbreg" class="reg-b">Register</button>
+					<button type="reset" name="txtbcancel" class="reg-b">Cancel</button>
+				</form>
+
+			</div>
+		</div>
+	</div>
+
+	
+	<div id="popup-signin" class="page">
+		<div class="signin">
+			<h2 class="sign1">Login</h2>
+			<input type="text" name="txtname" placeholder="Username">
+			<input type="Password" name="txtpass" placeholder="Password"><br>
+			<span class="forgetpass"><a href="" class="forpass">Forget Password?</a></span>
+            <a href="#" class="close">&times;</a>
+           	<br>
+			<button class="button1">Login</button>
+		</div>
+	</div>
+    <h4 class="acc-h4">
+    Already have an account? 
+    <span class="newpage"><a class="signbutton" href="#popup-signin"> Login</a></span> here.
+    </h4>
+   
+	
+</body>
+</html>

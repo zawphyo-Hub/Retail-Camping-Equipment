@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Camping Equiments Website</title>
+	<link rel="stylesheet" type="text/css" href="RCC_style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    	
+		<nav class="navigation">
+			<input type="checkbox" id="check">			
+			<h3 class="logo">RCC&#10003;</h3>
+
+			<div class="nav-link">
+				<ul >
+			        <li><a href="RCC_home.html">Home</a></li>
+			        <li><a href="equiments.html">Camping Equipments & Furnitures</a></li>
+			        <!-- <li><a href="furniture.html">Furnitures</a></li> -->
+			        <li><a href="offer-package.html">Offers and Packages</a></li>
+                    <li><a href="review.html">Reviews</a></li>
+                    
+                                        
+		        </ul>
+			</div>
+
+			<div class="icon">
+			    <ul >
+			    	<li>
+   		 				<!-- <div class="search-box">
+ 			    		   <input class="search-text" type="text" name="txtname" placeholder="Search Items" > 
+	               	       <a href="#" class="icon"><i class="fa-solid fa-magnifying-glass fa-sm"></i></a> 
+			    		</div>			    		 -->
+						<div class="userSearch">
+							<span class="userSearchIcon">
+								<i class="fa-solid fa-magnifying-glass searchBTN"></i>
+							
+							</span>
+							</div>
+								<form class="search-form" action="searchsocialApp.php" method="post">
+									<div class="userSearchBox">
+										
+										<input class="input1" type="text" name="keyword" placeholder="Enter to search camping equipments">
+										<i class="fa-solid fa-xmark closeBTN"></i>
+										
+									</div>
+								</form>
+	               	</li>
+	               	
+				    <li>
+				    	<div class="cartIcon">
+				    	
+							<i  class="fa-solid fa-cart-shopping fa-lg" id="cart-icon"></i>
+							<span id="cart-count">0</span>
+							</div>
+	
+							<div class="cartpage">
+								<h2 class="cart-title">SHOPPING CART <i class="fa-solid fa-cart-shopping fa-sm"></i></h2>
+								
+								<div class="cart-content">
+								
+								<div class="total">
+									<div class="total-title">Total</div>
+									<div class="total-price">$0</div>
+								</div>
+								</div>
+								<button type="submit" class="btn-buy">Buy Now</button>
+								<i class="fa-solid fa-xmark" id="close-cart"></i>
+	
+							</div>
+	
+				    </li>
+				        
+				    
+	                <li><a href="login.html" class="icon"><i class="fa-regular fa-user fa-lg"></i></a></li>
+			    </ul>
+            </div>
+
+            <label for="check" class="checkbtn">
+				<i class="fa-solid fa-bars fa-sm"></i>
+			</label>
+
+			
+		</nav>
+    <div class="RegContainer">
+        <div class="RegForm">
+            <form >
+                
+                <div class="regPhoto">
+                    <h2>Register Form</h2>
+                            
+                    
+                    <div class="regincontainer">
+                    <div class="regin">
+                        <input type="text" name= "firstname" placeholder="Firstname" required>
+                        <input type="text" name= "lastname" placeholder="Lastname" required>
+                        <input type="number" name="phno" placeholder="PhoneNumber" required>
+                    </div>
+
+                    <div class="regin">
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="password"  name="password" placeholder="Password" required >
+                        <input type="password" name="confirm_pass" placeholder="Confirm Password" required>
+                        
+                        
+                    
+                    </div> 
+                    </div> 
+                    <button class="buttonreg" type="submit">Register</button>    
+                </div>
+                    <span id="span">Already have an account? <a href="login.html"> Login now </a></span>
+            </form>
+        </div>
+    </div>            
+    <script src="/cart.js"></script>
+            
+</body>
+</html>

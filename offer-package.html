@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Retail Camping Equiments Website</title>
+	<link rel="stylesheet" type="text/css" href="RCC_style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+	<nav class="navigation">
+			<input type="checkbox" id="check">			
+			<h3 class="logo">RCC&#10003;</h3>
+
+			<div class="nav-link">
+				<ul >
+			        <li><a href="RCC_home.html">Home</a></li>
+			        <li><a href="equiments.html">Camping Equipments & Furnitures</a></li>
+			        <!-- <li><a href="furniture.html">Furnitures</a></li> -->
+                    <li><a href="offer-package.html">Offers and Packages</a></li>
+                    <li><a href="review.html">Reviews</a></li>
+                    
+		        </ul>
+			</div>
+
+			<div class="icon">
+			    <ul >
+			    	<li class="search-li">
+   		 				<!-- <div class="search-box">
+ 			    		   <input class="search-text" type="text" name="txtname" placeholder="Search Items" > 
+	               	       <a href="#" class="icon"><i class="fa-solid fa-magnifying-glass fa-sm"></i></a> 
+			    		</div>			    		 -->
+						<div class="userSearch">
+							<span class="userSearchIcon">
+								<i class="fa-solid fa-magnifying-glass searchBTN"></i>
+							
+							</span>
+							</div>
+								<form class="search-form" action="searchsocialApp.php" method="post">
+									<div class="userSearchBox">
+										
+										<input class="input1" type="text" name="keyword" placeholder="Enter to search camping equipments">
+										<i class="fa-solid fa-xmark closeBTN"></i>
+										
+									</div>
+								</form>
+	               	</li>
+				   <li>
+					<div class="cartIcon">
+				    	
+				    	<i  class="fa-solid fa-cart-shopping fa-lg" id="cart-icon"></i>
+						<span id="cart-count">0</span>
+				    	</div>
+
+						<div class="cartpage">
+							<h2 class="cart-title">SHOPPING CART <i class="fa-solid fa-cart-shopping fa-sm"></i></h2>
+							
+							<div class="cart-content">
+							
+							<div class="total">
+								<div class="total-title">Total</div>
+								<div class="total-price">$0</div>
+							</div>
+						    </div>
+							<button type="submit" class="btn-buy">Buy Now</button>
+							<i class="fa-solid fa-xmark" id="close-cart"></i>
+
+						</div>
+
+
+				    </li>
+	               <li ><a href="login.html" class="icon"><i class="fa-regular fa-user fa-lg"></i></a></li>
+
+			    </ul>
+            </div>
+            
+			<label for="check" class="checkbtn">
+				<i class="fa-solid fa-bars"></i>
+			</label>
+	</nav>
+
+	<section class="offer1">
+		<div class="offer-home-content">
+			    <h2>Big Purchasement Discount</h2>
+			    <h3>50% Discount</h3>
+			    <p>For customers who purchase more than 700 Dollars will get 50% discount!</p>
+		</div>
+	
+	</section>
+
+	<section class="offer-package">
+
+		
+    	<h2 class="head"> <span>Available Packages</span> </h2>
+			<div class="sampleitems">
+				
+				
+	    	    <div class="itemscontent1">
+	    		    <img src="images/package2.png" alt="Camping set">
+	    		    <h4 class="name">Camping set</h4>
+
+	    		    <div class="price">
+	    			
+	    		        <p> 6 Different Items </p>
+	    		         <p>
+	    		         	Tent , Sleeping Bag, Camping Bag , Stove , Chair , Lamp
+	    		        	  		        	
+	    		         </p>
+	    		        	
+	    			    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <h3> 285.00$</h3>
+	    	        </div>
+	    	        <button class="cart1">Add to cart</button>
+	    	    </div>
+	    	    <div class="itemscontent1">
+	    		    <img src="images/package3.png" alt="Camping set">
+	    		    <h4 class="name">Camping set</h4>
+
+	    		    <div class="price">
+	    			
+	    		        <p> 6 Different Items </p>
+	    		        <p>
+	    		         	Tent , Sleeping Bag, Camping Bag , Chair , Lamp , Blanket 
+	    		        	  		        	
+	    		         </p>
+	    			    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <h3> 272.00$</h3>
+	    	        </div>
+	    	        <button class="cart1">Add to cart</button>
+	    	    </div>
+
+	    	    <div class="itemscontent1">
+	    		    <img src="images/package5.webp" alt=" Camping package">
+	    		    <h4 class="name">Camping Set</h4>
+
+	    		    <div class="price">
+	    			
+	    		        <p> 8 Different Items</p>
+	    		        <p>
+	    		         	Tent , Sleeping Bag ,cooking pot , Chair , Headlamp ,pan,<br>
+                                            Cooler ,Stove   
+                                       
+	    		         </p>
+	    			    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <h3> 454.00$</h3>
+	    	        </div>
+	    	        <button class="cart1">Add to cart</button>
+	    	    </div>
+	    	    <div class="itemscontent1">
+	    		    <img src="images/package4.jpg" alt="Camping set">
+	    		    <h4 class="name">Camping set</h4>
+
+	    		    <div class="price">
+	    			
+	    		        <p> 7 Different Items </p>
+	    		        <p>
+	    		         	Tent , Sleeping Bag , cooking pot, Stove , Chair , Headlamp,<br>
+                                            Cooler 
+	    		        	  		        	
+	    		         </p>
+	    			    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <h3> 435.00$</h3>
+	    	        </div>
+	    	        <button class="cart1">Add to cart</button>
+    	        </div>
+  	 	
+   	    
+	        </div>
+
+    </section>
+
+    <section>
+    	<div class="event">
+
+    		<div class="event1">
+    			<img src="images/buy1.png" alt="Discount image">
+    		</div>
+
+    		<div class="event1">
+    			<h1> CHRISTMAS OFFER</h1>
+    			<h4>Get One Free!</h4>
+    			<p> Purchase two different items on Christmas and get one items free.</p>
+    			<p>&lt; December 7-20 &gt;</p>
+    			<button class="go-review1">Buy Now</button>
+
+    		</div>
+
+    	</div>
+
+    </section>
+
+    
+	<section class="offer-package">
+			<h2 class="head"> <span>Popular Items</span> </h2>
+			<div class="sampleitems">
+				<div class="itemscontent1">
+	    		    <img src="images/tent1.png" alt="Tent images">
+	    		    <h4 class="name"> Modern Tent </h4>
+
+	    		    <div class="price">
+	    			
+	    		        <p>color - Silver</p>
+	    			    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-regular fa-star"></i>
+	    		        <h3>93.00$</h3>
+	    		    </div>
+	    		    <button class="cart">Add to cart</button>
+
+	            </div>
+	            <div class="itemscontent1">
+	    		    <img src="images/tent6.png" alt="tent image"> 
+	    		    <h4 class="name"> Tent </h4>
+
+	    		    <div class="price">
+	    			
+	    		        <p>color - Silver</p>
+	    			    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-regular fa-star"></i>
+	    		        <h3>80.00$</h3>
+	    		    </div>
+	    		    <button class="cart">Add to cart</button>
+
+	            </div>
+	            <div class="itemscontent1">
+	    		    <img src="images/sleepingbag2.png" alt="sleeping bag ">
+	    		    <h4 class="name"> Sleeping bag </h4>
+
+	    		    <div class="price">
+	    			
+	    		        <p>color - Darkgreen</p>
+	    			    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-regular fa-star"></i>
+	    		        <h3> 41.00$</h3>
+	    		    </div>
+	    		    <button class="cart">Add to cart</button>
+
+	            </div>
+	            <div class="itemscontent1">
+	    		    <img src="images/bag.png" alt="chair images">
+	    		    <h4 class="name"> Camping Bag </h4>
+
+	    		    <div class="price">
+	    			
+	    		        <p>color - Blue</p>
+	    			    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-regular fa-star"></i>
+	    		        <h3> 31.00$</h3>
+	    		    </div>
+	    		    <button class="cart">Add to cart</button>
+
+	            </div>
+	            <div class="itemscontent1">
+	    		    <img src="images/pan.png" alt="Pan">
+	    		    <h4 class="name"> Frying Pan </h4>
+
+	    		    <div class="price">
+	    			
+	    		        <p>Brand - Sonix</p>
+	    			    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star-half-stroke" style="color: #ff8040;"></i>
+	    		        <h3>21.00$</h3>
+	    		    </div>
+	    		    <button class="cart">Add to cart</button>
+
+	            </div>
+	            <div class="itemscontent1">
+	    		    <img src="images/firstaid.png" alt="Spatula">
+	    		    <h4 class="name"> First aid </h4>
+
+	    		    <div class="price">
+	    			
+	    		        <p>color - None</p>
+	    			    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-regular fa-star"></i>
+	    		        <h3>40.00$</h3>
+	    		    </div>
+	    		    <button class="cart">Add to cart</button>
+
+	        	</div>
+	        	<div class="itemscontent1">
+	    		    <img src="images/flashlight.png" alt="chair images">
+	    		    <h4 class="name"> Flashlight </h4>
+
+	    		    <div class="price">
+	    			
+	    		        <p>color - black</p>
+	    			    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <h3> 21.00$</h3>
+	    		    </div>
+	    		    <button class="cart">Add to cart</button>
+
+	            </div>	
+	            <div class="itemscontent1">
+	    		    <img src="images/tent5.png" alt="tent image"> 
+	    		    <h4 class="name">  Tent </h4>
+
+	    		    <div class="price">
+	    			
+	    		        <p>color - Orange</p>
+	    			    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-regular fa-star"></i>
+	    		        <h3>91.00$</h3>
+	    		    </div>
+	    		    <button class="cart">Add to cart</button>
+
+	            </div>							
+
+
+            </div>
+    </section>
+
+    
+
+
+	<footer>
+		<div class="f-container">
+			<div class="footer-row">
+				<div class="footer-column">
+					<h4 >RCC&#10003;</h4>
+					<p>	The Retail Camping Company</p>
+
+				</div>
+				<div class="footer-column">
+					<h4>Sponsors</h4>
+					<ul>
+						<li><a href="https://www.adidas.co.za/">Adidas</a></li>
+						<li><a href="https://www.reebok.com/">Reebok</a></li>
+						<li><a href="https://www.nike.com/">Nike</a></li>
+						<li><a href="https://www.lavieworld.com/">Labie</a></li>
+                     
+				    </ul>
+					
+				</div>
+
+				<div class="footer-column">
+					<h4>Contact us</h4>
+					<p>Phone - 9597710130</p>
+					<p>Email - rcc23@gmail.com</p>
+
+				</div>
+				<div class="footer-column">
+					<h4>Follow us</h4>
+					<a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-xl" style="color: #216ae8;"></i></a>
+    	            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-xl" style="color: #de3f3f;"></i></a>
+    	            <a href="https://twitter.com/"><i class="fa-brands fa-twitter fa-xl" style="color: #669eff;"></i></a>
+    	            <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp fa-xl" style="color: #09ce16;"></i></a>
+				</div>
+				
+
+			</div>
+			<p class="copyright">Copyrights &copy;2023 All rights reserved | Made by RCC&#10003; </p>
+
+		</div>
+
+    </footer>
+    <script src="/cart.js"></script>
+
+</body>
+</html>

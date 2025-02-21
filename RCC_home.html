@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Retail Camping Equiments Website</title>
+	<link rel="stylesheet" type="text/css" href="RCC_style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+	
+		<nav class="navigation">
+			<input type="checkbox" id="check">			
+			<h3 class="logo">RCC&#10003;</h3>
+
+			<div class="nav-link">
+				<ul >
+			        <li><a href="RCC_home.html">Home</a></li>
+			        <li><a href="equiments.html">Camping Equipments & Furnitures</a></li>
+			        <!-- <li><a href="furniture.html">Furnitures</a></li> -->
+			        <li><a href="offer-package.html">Offers and Packages</a></li>
+                    <li><a href="review.html">Reviews</a></li>
+                    
+                                        
+		        </ul>
+			</div>
+
+			<div class="icon">
+			    <ul >
+			    	<li>
+   		 				<!-- <div class="search-box">
+ 			    		   <input class="search-text" type="text" name="txtname" placeholder="Search Items" > 
+	               	       <a href="#" class="icon"><i class="fa-solid fa-magnifying-glass fa-sm"></i></a> 
+			    		</div>	
+					   		    		 -->
+					<div class="userSearch">
+					<span class="userSearchIcon">
+					    <i class="fa-solid fa-magnifying-glass searchBTN"></i>
+					
+					</span>
+				    </div>
+						<form class="search-form" action="searchsocialApp.php" method="post">
+							<div class="userSearchBox">
+								
+								<input class="input1" type="text" name="keyword" placeholder="Enter to search camping equipments">
+								<i class="fa-solid fa-xmark closeBTN"></i>
+								
+							</div>
+						</form>
+	               	</li>
+	               	
+				    <li>
+				    	<div class="cartIcon">
+				    	
+							<i  class="fa-solid fa-cart-shopping fa-lg" id="cart-icon"></i>
+							<span id="cart-count">0</span>
+							</div>
+	
+							<div class="cartpage">
+								<h2 class="cart-title">SHOPPING CART <i class="fa-solid fa-cart-shopping fa-sm"></i></h2>
+								
+								<div class="cart-content">
+								
+								<div class="total">
+									<div class="total-title">Total</div>
+									<div class="total-price">$0</div>
+								</div>
+								</div>
+								<button type="submit" class="btn-buy">Buy Now</button>
+								<i class="fa-solid fa-xmark" id="close-cart"></i>
+	
+							</div>
+	
+
+				    </li>
+				        
+				    
+	                <li><a href="login.html" class="icon"><i class="fa-regular fa-user fa-lg"></i></a></li>
+			    </ul>
+            </div>
+
+            <label for="check" class="checkbtn">
+				<i class="fa-solid fa-bars fa-sm"></i>
+			</label>
+
+			
+		</nav>
+	
+
+		<div class="slider">
+		    <input type="radio" name="slider" checked="checked">
+		    <div class="slideimage">
+			    <img src="images/campview4.jpg" >
+	            
+		    </div>
+
+		    <input type="radio" name="slider">
+		    <div class="slideimage">
+			    <img src="images/campview5.jpg" >
+	            
+		    </div>
+
+		    <input type="radio" name="slider">
+		    <div class="slideimage">
+			    <img src="images/campview3.jpg" >
+	            
+		    </div>
+		    <input type="radio" name="slider">
+		    <div class="slideimage">
+			    <img src="images/campview1.jpg" >
+	            
+		    </div>
+
+	    </div>
+		
+	
+	<section class="card">
+		<h1 class="text">Famous Places To Go Camping</h1>
+		
+		<p class="card-p">
+			These are the most popular places to go camping. If you are searching for the places to go camping,
+		<br>
+		these places would be the best option. You should give it a visit.		
+		
+		</p>
+			
+		<div class="row">
+            
+        
+    		<div class="column">
+                <img src="images/camp1.jpg" alt="camping image" >
+    			<h3 class="	package">Skane, Sweden</h3>
+    			<p class="skane">From the woody hills of the north to the rolling meadows of the south, Skane offers beautiful nature and refreshing contrasts. Set up camp and enjoy it all.</p>
+    	        <button class="visit" onclick="location.href='https://visitskane.com/outdoors-adventure/camping-skane'">Visit &rarr;</button>
+            </div> 
+            <div class="column">   
+                <img src="images/camping2.jpg" alt="camping image" >
+                <h3 class=" package">Simien Mountains, Ethiopia</h3>
+                <p class="skane">From the Simien Mountains, you can view the beautiful view of Simien forest. Simien offers beautiful nature and delicious forest foods. </p>
+                <button class="visit" onclick="location.href='https://www.brilliant-ethiopia.com/national-parks/simien-mountains/camping'">Visit &rarr;</button>
+  			
+            </div>
+           	
+           	<div class="column">
+                <img src="images/camp2.jpg" alt="camping image" >
+    			<h3 class="	package">Aoron top, Spain</h3>
+    			<p class="skane">The beautiful view of spain can be seen from the top of the Aoron. The weather is usually cloudy and the top of Aoron is brimming with clouds.</p>
+    		    <button class="visit" onclick="location.href='https://www.tripadvisor.com/Hotel_Review-g3681216-d12858327-Reviews-Aaron_s_Campsite-Cragg_Vale_Hebden_Bridge_West_Yorkshire_England.html'">Visit &rarr;</button>
+            </div>    
+            <div class="column">
+                <img src="images/camp3.jpg" alt="camping image" >
+                <h3 class=" package">Miyajima, Japan</h3>
+                <p class="skane">Miyajima, the place where you can enjoy the nature view of japan and interesting japanese culture. Miyajima is one of the famous camping site in japan.</p>
+                <button class="visit" onclick="location.href='https://the-wadas.com/camping-in-miyajima/'">Visit &rarr;</button>
+  			
+           	</div>
+           	
+    		
+    	</div>
+    </section>
+
+   
+    <section class="service-card">
+
+    	<div class="aboutus">
+    	
+		    <h2>About us</h2>
+		    
+		</div>   
+
+	    <div class="RCC">
+			<div class="aboutrcc" >
+				<img src="images/RCC.jpg" alt="RCC photo">
+				
+				<div class="content-rcc">
+					<p>RCC's Headquarters</p>
+				</div>
+				
+			</div>
+			<div class="aboutrcc">
+				<p>
+					The Retail Camping Company(RCC&#10003;) is an innovative company that specializes in providing high-quality camping equipment and accessories to outdoor enthusiasts. Founded by a group of passionate nature lovers in 2002. Initially, RCC only sold tents for camping. In 2006, RCC started to grow their range of items they sell. Gradually, the company started to have many customers and reviews. Started from 2011, RCC has been selling all the items related to camping. The company aims to inspire people to become a camping lover and help campers to buy camping items with affordable prices. Since 2012, RCC has been getting lots of good reviews and became one of the leading camping industries because of quality of items and services.
+				</p>
+				
+			</div>
+	    </div>
+
+    	<div class="addinfo">
+    		<div class="location">
+    		    
+    		    <div class="map"> <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=21%20London%20St,%20Norwich%20NR2%201JE,%20United%20Kingdom+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                </div>
+                
+            </div>
+
+    		
+    	</div>
+    
+       
+	    <!-- <div class="activity">
+	    	<h1>What We Are Doing?</h1>
+	        <p>The Retail Camping Company(RCC&#10003;) is selling camping equipments with affordable prices. Moreover, we  provide<br>
+		    many promotion events for customers to enjoy their holidays. 
+            </p>
+			<a href="equiments.html" class="viewmore">View More Items</a>
+	    </div>
+
+        
+	    <div class="sampleitems">
+
+	    	<div class="itemscontent1">
+	    		<img src="images/blue_tent.png" class="product-image" alt="Blue tent">
+	    		<h4 class="name">Tent </h4>
+
+	    		<div class="price">
+	    			
+	    		    <p>color - Blue</p>
+	    			<i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		    <i class="fa-regular fa-star"></i>
+	    		    <h3 class="price1"> 42.00$</h3>
+	    		</div>
+	    		<button class="cart">Add to cart</button>
+	    		
+	    	</div>	
+	    	
+	    	<div class="itemscontent1">
+	    		<img src="images/bag.png" class="product-image" alt="Camping Bag">
+	    		<h4 class="name">Camping Bag</h4>
+	    		<div class="price">
+	    			
+	    		    <p>color - Darkblue</p>
+	    		    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		    <i class="fa-solid fa-star-half-stroke" style="color: #ff8040;"></i>
+                    <h3 class="price1"> 31.00$</h3>
+	    		</div>
+	    		<button class="cart">Add to cart</button>
+
+	    	</div>
+	    	<div class="itemscontent1">
+
+	    		<img src="images/flashlight.png" class="product-image" alt="Flashlight">
+	    		<h4 class="name">Flashlight</h4>
+	    		<div class="price">
+	    			<p>color - Black</p>
+	    		    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		    
+                    <h3 class="price1"> 21.00$</h3>
+	    		</div>
+	    		<button class="cart">Add to cart</button>
+
+	    	</div>
+	    	<div class="itemscontent1">
+	    		<img src="images/kettle.png" class="product-image" alt="Kettle image">
+	    		<h4 class="name">Electric Kettle</h4>
+	    		<div class="price">
+	    			    			
+                    <p>color - White</p>
+                    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		    <i class="fa-solid fa-star-half-stroke" style="color: #ff8040;"></i>
+	    		    <i class="fa-regular fa-star"></i>
+                    <h3 class="price1"> 35.00$</h3>
+	    		</div>
+	    		<button class="cart">Add to cart</button>
+	    	</div>
+
+	    	<div class="itemscontent1">
+	    		    <img src="images/green_tent.png"  class="product-image" alt="Tent images">
+	    		    <h4 class="name"> Tent </h4>
+
+	    		    <div class="price">
+	    			
+	    		        <p>color - Green</p>
+	    			    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-regular fa-star"></i>
+	    		        <h3 class="price1">45.00$</h3>
+	    		    </div>
+	    		    <button class="cart">Add to cart</button>
+
+	            </div>
+	            <div class="itemscontent1">
+	    		    <img src="images/hammock.png" class="product-image" alt="Sleeping hammock">
+	    		    <h4 class="name">Sleeping Hammock </h4>
+
+	    		    <div class="price">
+	    			
+	    		        <p>color - Yellow</p>
+	    			    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-regular fa-star"></i>
+	    		        <i class="fa-regular fa-star"></i>
+	    		        <h3 class="price1">16.00$</h3>
+	    	        </div>
+	    	        <button class="cart">Add to cart</button>
+	    		</div>
+	    		<div class="itemscontent1">
+	    		    <img src="images/pan.png" class="product-image" alt="Pan">
+	    		    <h4 class="name"> Frying Pan </h4>
+
+	    		    <div class="price">
+	    			
+	    		        <p>color - Steel</p>
+	    			    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star-half-stroke" style="color: #ff8040;"></i>
+	    		        <h3 class="price1">21.00$</h3>
+	    		    </div>
+	    		    <button class="cart">Add to cart</button>
+
+	            </div>	
+	            <div class="itemscontent1">
+	    		    <img src="images/swing.png" class="product-image" alt="chair images">
+	    		    <h4 class="name"> Hammock </h4>
+
+	    		    <div class="price">
+	    			
+	    		        <p>color - Colorful</p>
+	    			    <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-solid fa-star" style="color: #ff8000;"></i>
+	    		        <i class="fa-regular fa-star"></i>
+	    		        <h3 class="price1" >18.00$</h3>
+	    		    </div>
+	    		    <button class="cart">Add to cart</button>
+
+	            </div>
+
+	    </div>
+	   	 
+	  -->
+		
+		<div class="service_row1">
+
+			<div class="service-content">
+		    	<img src="images/service.jpg" alt="service image">
+			    
+		    </div>
+			
+		    <div class="service-content">
+		    	<h3>
+		    		 We Are Ready to Listen and Provide Your Solution Today<br>
+		    		
+		    	</h3>
+		    	<p>
+		    		We are providing the best service to satisfy the customers. Purchase now and get in touch with the best service in the world.
+		    	</p>
+
+		    	<a class="buttonbox" href="#popup1">Service we offer</a>
+             		    	
+		    </div>
+		    
+            
+
+		</div>
+         
+		
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <h3>FREE SHIPPING SPECIAL! </h3>
+                    <p>	
+                    	We are thrilled to announce an exclusive limited-time offer just for you! Enjoy the ultimate convenience of free shipping on all orders in December. It's the perfect time to shop for your favorite items without any shipping charges!
+                    	<br>
+                    	<br>			
+                    	Don't miss out on this fantastic chance to save big on delivery fees. Share the news with your friends and family so that they can benefit from this too!
+                        
+                    </p>
+                    <h3>FAST DELIVERY SERVICE NOW AVAILABLE! </h3>
+                    <p>	
+                    	We're excited to introduce our lightning-fast delivery service that will revolutionize the way you shop! Say goodbye to long waits and hello to rapid doorstep delivery!
+                        <br><br>
+                        Need your order urgently? No problem! With our Fast Delivery Service, your items will be dispatched within 24 hours, ensuring you receive them in the shortest possible time.
+                        
+                    </p>
+                    <h3>HASSLE-FREE REFUND SERVICE - YOUR SATISFACTION GUARANTEED! </h3>
+                    <p>	
+                    	We believe in putting a smile on your face with every purchase you make! That's why we are thrilled to introduce our hassle-free Refund Service, ensuring your complete satisfaction and peace of mind.
+                        <br><br>
+                    	Satisfaction Guaranteed: Your happiness is our top priority. We take pride in the quality of our products and services, but if for any reason you're not delighted, we'll refund your purchase immediately.
+                        <br><br>
+                    	
+                    </p>
+                    
+                    <a href="#" class="close">&times;</a>
+                </div>
+
+                
+            </div>
+    </section> 
+	
+	<footer>
+		<div class="f-container">
+			<div class="footer-row">
+				<div class="footer-column">
+					<h4 >RCC&#10003;</h4>
+					<p>	The Retail Camping Company</p>
+
+				</div>
+				<div class="footer-column">
+					<h4>Sponsors</h4>
+					<ul>
+						<li><a href="https://www.adidas.co.za/">Adidas</a></li>
+						<li><a href="https://www.reebok.com/">Reebok</a></li>
+						<li><a href="https://www.nike.com/">Nike</a></li>
+						<li><a href="https://www.lavieworld.com/">Labie</a></li>
+                     
+				    </ul>
+					
+				</div>
+
+				<div class="footer-column">
+					<h4>Contact us</h4>
+					<p>Phone - 9597710130</p>
+					<p>Email - rcc23@gmail.com</p>
+
+				</div>
+				<div class="footer-column">
+					<h4>Follow us</h4>
+					<a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-xl" style="color: #216ae8;"></i></a>
+    	            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-xl" style="color: #de3f3f;"></i></a>
+    	            <a href="https://twitter.com/"><i class="fa-brands fa-twitter fa-xl" style="color: #669eff;"></i></a>
+    	            <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp fa-xl" style="color: #09ce16;"></i></a>
+				</div>
+				
+
+			</div>
+			<p class="copyright">Copyrights &copy;2023 All rights reserved | Made by RCC&#10003; </p>
+
+		</div>
+
+    </footer>
+	<script src="/cart.js"></script>
+	
+
+	
+</body>
+</html>
