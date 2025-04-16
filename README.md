@@ -1,13 +1,20 @@
-# Introduction to Retail-Camping-Equipment
-Technologies used - HTML, CSS, Java Script
+# Retail-Camping-Equipment
+Technologies - HTML, CSS, Java Script
 
-This is a fully responsive eCommerce website designed for purchasing camping equipment. It features an interactive user interface, a dynamic shopping cart, and a seamless browsing experience.
+## Project Overview
+This is a front-end eCommerce website designed for purchasing camping equipment. It features an interactive user interface, a dynamic shopping cart, and a seamless browsing experience.
 
-# Key Features
-Responsive Design – Ensures smooth usability on all devices (desktop, tablet, and mobile).
+## Key Features
+(1) Responsive Design 
+- Ensures smooth usability on all devices (desktop, tablet, and mobile).
 
-Shopping Cart – Users can add/remove products, with real-time price updates.
+(2) Shopping Cart
+- Users can add/remove products, with real-time price updates.
 
-Product Listings – Displays camping equipment with descriptions and images.
+## Lesson Learned
+- Learned how to build the user-interface using html and designing with CSS, this includes the use of html syntax, basic web desing, and styling.
+- Learned how to build responsive design by using query with max-width in CSS. This helped me to understand how user-interface of mobile and destop work.
+- Integrated java script helped me to understand the basic java script and how to make the web design better.
 
-Interactive UI – Built with JavaScript for smooth user interactions.
+## Evaluation
+My First web application using HTML, CSS and Java Script. This help me to learn the basic of programming language and it served as a great introduction to the world of web development. Overall, it was a valuable and enjoyable learning experience. 
